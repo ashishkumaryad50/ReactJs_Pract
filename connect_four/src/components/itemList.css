@@ -1,0 +1,33 @@
+.item {
+  padding: 1rem;
+  background-color: rgb(49, 57, 170);
+  margin: 2rem auto;
+  width: 66rem;
+  height:30px;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(26, 25, 25, 0.25);
+}
+
+
+.item h2 {
+  color: #3a3a3a;
+  font-size: 2rem;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+  /* font-size: bold; */
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+@media (min-width: 580px) {
+  .item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+
+}
