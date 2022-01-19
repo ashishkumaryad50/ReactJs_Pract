@@ -1,0 +1,49 @@
+.counter {
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+}
+
+.counter h1 {
+  text-transform: uppercase;
+  color: #131212;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.value {
+  font-size: 2rem;
+  color: #072eda;
+  margin: 2rem 0;
+  font-weight: bold;
+}
+/* 
+.butRed {
+  margin: 1rem;
+  color: white;
+ background-color: rgba(196, 10, 10, 0.705);
+}
+
+.butRed:hover,
+.butRed:active {
+  background-color: #fc0404;
+  border-color: #fc0404;
+}
+
+.butBlue {
+  margin: 1rem;
+  color: white;
+ background-color: rgba(56, 26, 189, 0.637);
+}
+
+.butBlue:hover,
+.butBlue:active {
+  background-color: #0429fc;
+  border-color: #0429fc;
+} */
+
+button{
+  margin: 1rem;
+  
+  background-color: #0429fc;
+}

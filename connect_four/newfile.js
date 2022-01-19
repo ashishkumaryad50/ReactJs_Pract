@@ -1,9 +1,11 @@
+const v = 67;
+var t = 99;
 const newFun = () => {
-    console.log(this)
+    console.log(this === window)
 }
-newFun
+newFun()
 
 function row() {
-    console.log(this)
+    console.log(this === window)
 }
 row()
