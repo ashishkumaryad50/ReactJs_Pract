@@ -1,0 +1,36 @@
+scroll bar ---> 
+
+body {
+  height: 5000px; /* Make this site really long */
+  width: 5000px; /* Make this site really wide */
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+///////////////////////////////
+get the index of the object inside an array of object -->
+
+const index = state.data.findIndex((el) => { return el.id === action.newObj.id });
+        const newState = state.data;
+        newState[index] = action.newObj
+
+/////////////////////////////////////////
+reset the from throught reset button in react js--->
+{isActive && !btnActive && <button className='showdata-item__btnRed' onClick={cancelEditHandler} >Cancel</button>}
+const cancelEditHandler = () => {
+        setKeyVal(props.keyId);
+        setFstName(props.firstName);
+        setLstName(props.lastName);
+        setEmaiId(props.emailData);
+        setbtnActive(true);
+        setIaActive(false);
+    }
+
+////////////////////////////////////////
+making input readonly in react js-->
+<input type="email" value={emailId} readOnly={isActive ? false : true} onChange={editEmailHandler} />
+
+
+///////////////////////////////////////////
+route the page without refeshing the page or refreshing the data or without hitting the api agian 
+
