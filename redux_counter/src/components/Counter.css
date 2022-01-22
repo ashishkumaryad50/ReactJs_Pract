@@ -17,7 +17,7 @@
   margin: 2rem 0;
   font-weight: bold;
 }
-/* 
+
 .butRed {
   margin: 1rem;
   color: white;
@@ -40,7 +40,7 @@
 .butBlue:active {
   background-color: #0429fc;
   border-color: #0429fc;
-} */
+}
 
 button{
   margin: 1rem;

@@ -1,12 +1,12 @@
 import './Counter.css';
-import {useEffect} from 'react'
+import { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux';
 
 const Counter = () => {
   // iife 
-  useEffect(() => {
-    
-  })
+  // useEffect(() => {
+
+  // })
   const dispatch = useDispatch();
   const counter = useSelector((state) => (state.counter));
   const incrementHandler = () => {
